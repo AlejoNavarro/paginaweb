@@ -1,0 +1,35 @@
+<!-- <div></div> Sirve para diferenciar donde estamos trabajando-->
+
+<!-- <section></section>  Sirve para determinar qué contenido corresponde a qué parte del codigo. -->
+
+<!-- usar lorem es para texto inventado-->
+
+<!-- <article> se usa para articulos, tipo wikipedia, para agregar información acerca de su contenido-->
+
+<!--<strong> TU TEXTO </strong> Pone negrita en tu texto -->
+
+<!-- <br> Hace salto de linea -->
+
+<!--<ul> Hace una lista, y <ol> por numero-->
+
+<!-- <a> te enlaza un link para moverte internamente-->
+
+<!-- <a link> te enlaza a un link para moverte externamente, con target podes: 
+    
+_blank para que abra nueva pestaña y no te saque de la tuya -->
+
+<!-- si usas id luego de un section en article te moves sobre el mismo archivo -->
+
+<!-- <video> en src va el archivo del video, luego pones constrols
+    si queres que el usuario maneje el video y muted autoplay para que no tenga audio
+    para que el video sea infinito usamos loop -->
+
+
+<!-- Imagend de fondo:
+background-image: url() ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; (es para que la imagen ocupen todo altura y ancho) metete a pexels y modifica una imagen con buena calidad -->
+
+
+<!-- text-decoration underline (subrayado) -->

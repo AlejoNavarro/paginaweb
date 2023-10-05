@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(24, 168, 235);
+    height: 100px;
+    width: 100%;
+    
+}
+
+
+.enlace{
+    position: absolute;
+    padding: 10px 0px;
+    padding-left: 20px;
+    }
+
+.logo{
+    height: 80px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-family: Consolas;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+#banerequipo{
+    
+    background: url(/Fotos/pexels-matheus-bertelli-2467506.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding: 0 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.contenido-baner{
+    text-align: center;
+     
+    }
+    
+
+.contenido-baner h2{
+    font-size: 80px;
+    font-weight: 600;
+    padding: 100px 0px;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   
+}
+
+/* Nosotros */
+.titulo {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Consolas;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para la descripción */
+
+.contenedorseparador{
+    background: rgb(24, 168, 235);
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.izq{
+    background: #e70606;
+    height: 40vh;
+    width: 50%;
+}
+
+.der{
+    background-image: url(/Fotos/pexels-fauxels-3183165.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 40vh;
+}
+
+#baner-dividido{
+    display: flex;
+}
+
+
+.quienesomos{
+    color: #fff;
+    font-size: 5vh;
+    width: 50%;
+    margin: auto;
+}
+
+.descnos{
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+
+}
+
+
+
+
+/* Aca abajo estan las tarjetas */
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    background:  rgba(25, 148, 219, 0.596);
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.imagen-tarjeta{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.tar-1{
+    background-image: url(/Fotos/pexels-martin-lopez-2225616.jpg);
+}
+
+.tar-2{
+    background-image: url(/Fotos/pexels-pixabay-163125.jpg);
+}
+
+.tar-3{
+    background-image: url(/Fotos/pexels-valentine-tanasovich-2588757.jpg);
+}
+
+.tar-4{
+    background-image: url(/Fotos/pexels-thisisengineering-3862140.jpg);
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Consolas, sans-serif;
+    color: aliceblue;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+/* vvvvv CSS del footer vvvvv */
+
+footer{
+    background-color: rgb(24, 168, 235);
+}
+
+.contenedorfooter{
+    width: 100%;
+    padding: 10px 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+
+.iconos a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.iconos a i{
+    font-size: 2rem;
+    color:rgb(24, 168, 235);
+}
+
+.footernav{
+    margin: 30px;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+/* vvvvvv ACA ABAJO ESTA EL CSS DE UBICACION vvvvvv */
+
+.texto{
+    text-align: center;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 168, 235);
+    font-size: 50px;
+    font-family: Consolas;
+    
+}
+
+.mapa{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+    
+}
+
+
+/* vvvvv CSS del footer vvvvv */
+
+.contactoabajo{
+    font-size: 30px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+
+
+.fa-solid{
+   color: black;
+}
+
+.formulario{
+    font-size: 50px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+input{
+    font-size: 50px;
+    border-width: medium;
+    color: rgb(24, 168, 235);
+    
+
+
+
+}
+
+.notis{
+    font-size: 25px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+
+.cuadroopcion{
+    font-size: 30px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+button{
+    font-size: 30px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+
+
+
+
+
+
+
+
+
+/* vvvvvv ACA ABAJO ESTA EL CSS DE UBICACION vvvvvv */
+
+.texto{
+    text-align: center;
+   
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 168, 235);
+    font-size: 50px;
+    font-family: Consolas;
+    
+}
+
+.mapa{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+    
+}

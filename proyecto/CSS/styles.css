@@ -1,0 +1,200 @@
+/* vvvvvv ACA ABAJO ESTA EL CSS DEL INDEX vvvvvv */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:rgb(153, 202, 224);
+}
+
+.menu ul{
+    color: rgb(24, 168, 235);
+    font-size: 2.5rem;
+    font-family: Consolas;
+    padding: 0;
+    margin: 0;
+    justify-content: right;
+    column-gap: 15px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    justify-content: space-around;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.fotologoindex{
+    max-width: 80%; /* Ajusta el ancho máximo de la imagen para evitar desbordamientos */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+.centrar-imagen {
+    text-align: center; /* Centra horizontalmente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en navegadores modernos */
+    align-items: center; /* Centra verticalmente */
+   
+}
+
+.Productos{
+    text-align: left;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 168, 235);
+    font-size: 3rem;
+    font-family: Consolas;
+}
+
+.Titulo{
+    text-align: left;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 168, 235);
+    font-size: 3rem;
+    font-family: Consolas;
+   
+}
+
+.Titulo2{
+    text-align: left;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 168, 235);
+    font-size: 3rem;
+    font-family: Consolas;
+   
+}
+
+.Titulo3{
+    text-align: left;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 168, 235);
+    font-size: 3rem;
+    font-family: Consolas;
+   
+}
+
+.Titulo4{
+    text-align: left;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 168, 235);
+    font-size: 3rem;
+    font-family: Consolas;
+}
+
+p{
+    font-size: 3rem;
+    font-family: Consolas;
+}
+
+/* vvvvv CSS del footer vvvvv */
+
+hr{ /* CSS de barra horizontal al footer */
+    height: 10px;
+    background-color: rgb(24, 168, 235);
+}
+
+.contacto{
+    font-size: 2rem;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+.informacion{
+    font-size: 2rem;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+.ubicacion{
+    font-size: 2rem;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+
+}
+
+.fa-brands{ /* CSS de iconos del footer */
+    color: rgb(24, 168, 235);
+    font-size: 2rem ;
+}
+
+
+
+/* vvvvvv ACA ABAJO ESTA EL CSS DE UBICACION vvvvvv */
+
+.texto{
+    text-align: center;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 168, 235);
+    font-size: 50px;
+    font-family: Consolas;
+    
+}
+
+.mapa{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+    
+}
+
+
+/* vvvvv CSS del footer vvvvv */
+
+.contactoabajo{
+    font-size: 30px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+
+
+.fa-solid{
+   color: black;
+}
+
+.formulario{
+    font-size: 50px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+input{
+    font-size: 50px;
+    border-width: medium;
+    color: rgb(24, 168, 235);
+    
+
+
+
+}
+
+.notis{
+    font-size: 25px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+
+.cuadroopcion{
+    font-size: 30px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}
+
+button{
+    font-size: 30px;
+    color: rgb(24, 168, 235);
+    font-family: Consolas;
+}

@@ -1,0 +1,76 @@
+@font-face{
+    font-family:LemonMilk ;
+    src: url(/Fuentes/LEMONMILK-Bold.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(33, 104, 151);
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: LemonMilk, sans-serif;
+    color: #ffffff;    
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.tarjeta{
+    background: rgb(203, 204, 207);
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.imagen-tarjeta{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.tar-1{
+    background-image: url(/Fotos/pexels-martin-lopez-2225616.jpg);
+}
+
+.tar-2{
+    background-image: url(/Fotos/pexels-pixabay-163125.jpg);
+}
+
+.tar-3{
+    background-image: url(/Fotos/pexels-valentine-tanasovich-2588757.jpg);
+}
+
+.tar-4{
+    background-image: url(/Fotos/pexels-thisisengineering-3862140.jpg);
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: LemonMilk, sans-serif;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    
+}
